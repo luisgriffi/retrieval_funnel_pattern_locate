@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "luisgriffi-oplib_jd298"
+name = "luisgriffi-retrieval_funnel_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告算子库维护工程师·检索召回的漏斗分析相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://luisgriffi.github.io"
-Repository = "https://github.com/luisgriffi/oplib_jd298"
-Issues = "https://github.com/luisgriffi/oplib_jd298/issues"
+Repository = "https://github.com/luisgriffi/retrieval_funnel_pattern_locate"
+Issues = "https://github.com/luisgriffi/retrieval_funnel_pattern_locate/issues"
 
 [project.scripts]
-oplib_jd298 = "oplib_jd298:main"
+retrieval_funnel_pattern_locate = "retrieval_funnel_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["oplib_jd298"]
+py-modules = ["retrieval_funnel_pattern_locate"]
